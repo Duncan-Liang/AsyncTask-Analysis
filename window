@@ -1,0 +1,202 @@
+Dump time : Jan 2, 2016 4:02:01 PM
+
+WINDOW MANAGER LAST ANR (dumpsys window lastanr)
+  <no ANR has occurred since boot>
+
+WINDOW MANAGER POLICY STATE (dumpsys window policy)
+    mSafeMode=false mSystemReady=true mSystemBooted=true
+    mLidState=-1 mLidOpenRotation=-1 mCameraLensCoverState=-1 mHdmiPlugged=false
+    mLastSystemUiFlags=0x8600 mResettingSystemUiFlags=0x0 mForceClearedSystemUiFlags=0x0
+    mWakeGestureEnabledSetting=true
+    mSupportAutoRotation=true
+    mUiMode=1 mDockMode=0 mCarDockRotation=-1 mDeskDockRotation=-1
+    mUserRotationMode=0 mUserRotation=0 mAllowAllRotations=0
+    mCurrentAppOrientation=5
+    mCarDockEnablesAccelerometer=true mDeskDockEnablesAccelerometer=true
+    mLidKeyboardAccessibility=0 mLidNavigationAccessibility=0 mLidControlsSleep=false
+    mShortPressOnPowerBehavior=2 mLongPressOnPowerBehavior=1
+    mDoublePressOnPowerBehavior=0 mTriplePressOnPowerBehavior=0
+    mHasSoftInput=true
+    mAwake=false
+    mScreenOnEarly=false mScreenOnFully=false
+    mKeyguardDrawComplete=false mWindowManagerDrawComplete=false
+    mOrientationSensorEnabled=false
+    mOverscanScreen=(0,0) 720x1280
+    mRestrictedOverscanScreen=(0,0) 720x1184
+    mUnrestrictedScreen=(0,0) 720x1280
+    mRestrictedScreen=(0,0) 720x1184
+    mStableFullscreen=(0,0)-(720,1184)
+    mStable=(0,48)-(720,1184)
+    mSystem=(0,0)-(720,1280)
+    mCur=(0,48)-(720,1184)
+    mContent=(0,48)-(720,1184)
+    mVoiceContent=(0,48)-(720,1184)
+    mDock=(0,48)-(720,1184)
+    mDockLayer=268435456 mStatusBarLayer=161000
+    mShowingLockscreen=true mShowingDream=false mDreamingLockscreen=true mDreamingSleepToken=null
+    mStatusBar=Window{f7bb483 u0 StatusBar} isStatusBarKeyguard=true
+    mNavigationBar=Window{b84768c u0 NavigationBar}
+    mFocusedWindow=Window{f7bb483 u0 StatusBar}
+    mTopFullscreenOpaqueWindowState=Window{52f5b7d u0 com.asus.launcher/com.android.launcher3.Launcher}
+    mTopFullscreenOpaqueOrDimmingWindowState=Window{52f5b7d u0 com.asus.launcher/com.android.launcher3.Launcher}
+    mTopIsFullscreen=false mHideLockScreen=false
+    mForceStatusBar=false mForceStatusBarFromKeyguard=true
+    mDismissKeyguard=0 mWinDismissingKeyguard=null mHomePressed=false
+    mAllowLockscreenWhenOn=false mLockScreenTimeout=60000 mLockScreenTimerActive=false
+    mEndcallBehavior=2 mIncallPowerBehavior=1 mLongPressOnHomeBehavior=2
+    mLandscapeRotation=1 mSeascapeRotation=3
+    mPortraitRotation=0 mUpsideDownRotation=2
+    mDemoHdmiRotation=1 mDemoHdmiRotationLock=false
+    mUndockedHdmiRotation=-1
+    mKeyMapping.size=0
+    BarController.StatusBar
+      mState=WINDOW_STATE_SHOWING
+      mTransientBar=TRANSIENT_BAR_NONE
+    BarController.NavigationBar
+      mState=WINDOW_STATE_SHOWING
+      mTransientBar=TRANSIENT_BAR_NONE
+    PolicyControl.sImmersiveStatusFilter=null
+    PolicyControl.sImmersiveNavigationFilter=null
+    PolicyControl.sImmersivePreconfirmationsFilter=null
+    WakeGestureListener
+      mTriggerRequested=false
+      mSensor=null
+    WindowOrientationListener
+      mEnabled=false
+      mCurrentRotation=0
+      mSensor={Sensor name="ACCELEROMETER", vendor="MTK", version=3, type=1, maxRange=32.0, resolution=0.00390625, power=0.13, minDelay=10000}
+      mRate=2
+      mProposedRotation=-1
+      mPredictedRotation=-1
+      mLastFilteredX=-0.32268214
+      mLastFilteredY=-0.14692032
+      mLastFilteredZ=10.047289
+      mLastFilteredTimestampNanos=330932059865 (287074.28ms ago)
+      mTiltHistory={last: 88.0}
+      mFlat=true
+      mSwinging=false
+      mAccelerating=false
+      mOverhead=false
+      mTouched=false
+      mTiltToleranceConfig=[[-25, 70], [-25, 65], [-25, 60], [-25, 65]]
+
+WINDOW MANAGER ANIMATOR STATE (dumpsys window animator)
+    DisplayContentsAnimator #0:
+      Window #0: WindowStateAnimator{85bf10b com.asus.launcher/com.android.launcher3.Launcher}
+      Window #1: WindowStateAnimator{328a19c AssistPreviewPanel}
+      Window #2: WindowStateAnimator{1f14f63 com.android.systemui.ImageWallpaper}
+      Window #3: WindowStateAnimator{8c16ad6 KeyguardScrim}
+      Window #4: WindowStateAnimator{c108d86 StatusBar}
+      Window #5: WindowStateAnimator{512fb6a NavigationBar}
+
+
+    mBulkUpdateParams=0x8 ORIENTATION_CHANGE_COMPLETE
+
+WINDOW MANAGER SESSIONS (dumpsys window sessions)
+  Session Session{a581781 965:1000}:
+    mNumWindow=1 mClientDead=false mSurfaceSession=android.view.SurfaceSession@26abdc
+  Session Session{b9c3c41 1475:u0a10013}:
+    mNumWindow=1 mClientDead=false mSurfaceSession=android.view.SurfaceSession@9f5d8da
+  Session Session{be703ce 1135:u0a10016}:
+    mNumWindow=4 mClientDead=false mSurfaceSession=android.view.SurfaceSession@abf7e61
+
+
+WINDOW MANAGER DISPLAY CONTENTS (dumpsys window displays)
+  Display: mDisplayId=0
+    init=720x1280 320dpi cur=720x1280 app=720x1184 rng=720x672-1196x1136
+    deferred=false layoutNeeded=false
+  mStacks[0]0
+    mStackId=0
+    mDeferDetach=false
+    {taskId=26 appTokens=[AppWindowToken{abd3e31 token=Token{a12ad8 ActivityRecord{5dea24a u0 com.asus.launcher/com.android.launcher3.Launcher t26}}}] mdr=false}
+
+  Application tokens in top down Z order:
+  mStackId=0
+    mTaskId=26
+    Activity #0 AppWindowToken{abd3e31 token=Token{a12ad8 ActivityRecord{5dea24a u0 com.asus.launcher/com.android.launcher3.Launcher t26}}}:
+      windows=[Window{52f5b7d u0 com.asus.launcher/com.android.launcher3.Launcher}]
+      windowType=2 hidden=false hasVisible=true
+      app=true voiceInteraction=false
+      allAppWindows=[Window{52f5b7d u0 com.asus.launcher/com.android.launcher3.Launcher}]
+      task={taskId=26 appTokens=[AppWindowToken{abd3e31 token=Token{a12ad8 ActivityRecord{5dea24a u0 com.asus.launcher/com.android.launcher3.Launcher t26}}}] mdr=false}
+       appFullscreen=true requestedOrientation=5
+      hiddenRequested=false clientHidden=false willBeHidden=false reportedDrawn=true reportedVisible=true
+      numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+      startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+
+
+
+WINDOW MANAGER TOKENS (dumpsys window tokens)
+  All tokens:
+  WindowToken{43287a5 null}
+  WindowToken{d76377a android.os.Binder@4955a5a}
+  WindowToken{298fb2b android.os.Binder@b2d4e9b}
+  AppWindowToken{abd3e31 token=Token{a12ad8 ActivityRecord{5dea24a u0 com.asus.launcher/com.android.launcher3.Launcher t26}}}
+
+  Wallpaper tokens:
+  Wallpaper #0 WindowToken{298fb2b android.os.Binder@b2d4e9b}
+
+WINDOW MANAGER WINDOWS (dumpsys window windows)
+  Window #5 Window{b84768c u0 NavigationBar}:
+    mDisplayId=0 stackId=0 mSession=Session{be703ce 1135:u0a10016} mClient=android.os.BinderProxy@3b8efbf
+    mOwnerUid=10016 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=2019 fl=#1840068 fmt=-3}
+    Requested w=720 h=96 mLayoutSeq=253
+    mHasSurface=false mShownFrame=[0.0,1184.0][720.0,1280.0] isReadyForDisplay()=false
+    WindowStateAnimator{512fb6a NavigationBar}:
+      mAnimating=false mLocalAnimating=false mAnimationIsEntrance=true mAnimation=null
+  Window #4 Window{f7bb483 u0 StatusBar}:
+    mDisplayId=0 stackId=0 mSession=Session{be703ce 1135:u0a10016} mClient=android.os.BinderProxy@3a51f32
+    mOwnerUid=10016 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) gr=#30 sim=#10 ty=2000 fl=#81960040 pfl=0x400 fmt=-3 or=5 vsysui=0x600 if=0x4 userActivityTimeout=10000}
+    Requested w=720 h=48 mLayoutSeq=256
+    mHasSurface=true mShownFrame=[0.0,0.0][720.0,1280.0] isReadyForDisplay()=true
+    WindowStateAnimator{c108d86 StatusBar}:
+      Surface: shown=true layer=161000 alpha=1.0 rect=(0.0,0.0) 720.0 x 1280.0
+    mLastFreezeDuration=+5m36s475ms
+  Window #3 Window{3573006 u0 KeyguardScrim}:
+    mDisplayId=0 stackId=0 mSession=Session{a581781 965:1000} mClient=android.view.ViewRootImpl$W@f491ae1
+    mOwnerUid=1000 mShowToOwnerOnly=false package=android appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#10 ty=2029 fl=#1110900 pfl=0x1 fmt=-3 or=5 vsysui=0x3610000}
+    Requested w=720 h=1184 mLayoutSeq=44
+    mHasSurface=false mShownFrame=[0.0,0.0][720.0,1184.0] isReadyForDisplay()=false
+    WindowStateAnimator{8c16ad6 KeyguardScrim}:
+    mLastFreezeDuration=+1m36s383ms
+  Window #2 Window{2c9fff4 u0 com.android.systemui.ImageWallpaper}:
+    mDisplayId=0 stackId=0 mSession=Session{be703ce 1135:u0a10016} mClient=android.os.BinderProxy@3729dc7
+    mOwnerUid=10016 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(842x1497) gr=#800033 ty=2013 fl=#318 pfl=0x4 fmt=2 wanim=0x10302ea}
+    Requested w=842 h=1497 mLayoutSeq=256
+    mIsImWindow=false mIsWallpaper=true mIsFloatingLayer=true mWallpaperVisible=true
+    Offsets x=-61 y=-109
+    mHasSurface=true mShownFrame=[-61.0,-109.0][781.0,1388.0] isReadyForDisplay()=true
+    WindowStateAnimator{1f14f63 com.android.systemui.ImageWallpaper}:
+      mAnimating=false mLocalAnimating=false mAnimationIsEntrance=true mAnimation=null
+      Surface: shown=true layer=41005 alpha=1.0 rect=(-61.0,-109.0) 842.0 x 1497.0
+    mWallpaperX=0.5 mWallpaperY=0.5
+  Window #1 Window{12fd19 u0 AssistPreviewPanel}:
+    mDisplayId=0 stackId=0 mSession=Session{be703ce 1135:u0a10016} mClient=android.os.BinderProxy@75c7460
+    mOwnerUid=10016 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx500) gr=#800053 sim=#31 ty=2033 fl=#1000118 fmt=-3 vsysui=0x700}
+    Requested w=0 h=0 mLayoutSeq=28
+    mPolicyVisibility=false mPolicyVisibilityAfterAnim=false mAppOpVisibility=true mAttachedHidden=false
+    mHasSurface=false mShownFrame=[0.0,0.0][0.0,0.0] isReadyForDisplay()=false
+    WindowStateAnimator{328a19c AssistPreviewPanel}:
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #0 Window{52f5b7d u0 com.asus.launcher/com.android.launcher3.Launcher}:
+    mDisplayId=0 stackId=0 mSession=Session{b9c3c41 1475:u0a10013} mClient=android.os.BinderProxy@4777dd4
+    mOwnerUid=10013 mShowToOwnerOnly=true package=com.asus.launcher appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#81910100 fmt=-2 wanim=0x1030383 vsysui=0x600 needsMenuKey=2}
+    Requested w=720 h=1280 mLayoutSeq=256
+    mPolicyVisibility=false mPolicyVisibilityAfterAnim=false mAppOpVisibility=true mAttachedHidden=false
+    mHasSurface=true mShownFrame=[0.0,0.0][720.0,1280.0] isReadyForDisplay()=false
+    WindowStateAnimator{85bf10b com.asus.launcher/com.android.launcher3.Launcher}:
+      Surface: shown=false layer=21005 alpha=1.0 rect=(0.0,0.0) 720.0 x 1280.0
+    mWallpaperX=0.5 mWallpaperY=0.5
+
+  mCurConfiguration={0 1.0 ?mcc?mnc en_US ldltr sw360dp w360dp h568dp 320dpi nrml port finger -keyb/v/h -nav/h s.6}
+  mHasPermanentDpad=false
+  mCurrentFocus=Window{f7bb483 u0 StatusBar}
+  mFocusedApp=AppWindowToken{abd3e31 token=Token{a12ad8 ActivityRecord{5dea24a u0 com.asus.launcher/com.android.launcher3.Launcher t26}}}
+  mInTouchMode=true mLayoutSeq=256
+  mLastDisplayFreezeDuration=0 due to Window{f7bb483 u0 StatusBar}
